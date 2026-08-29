@@ -582,6 +582,11 @@ img {
   }
 }
 @media (max-width: 768px) {
+  .menu-grid,
+.gallery-grid,
+.features-grid {
+    grid-template-columns: 1fr;
+}
 
   body {
     overflow-x: hidden;
